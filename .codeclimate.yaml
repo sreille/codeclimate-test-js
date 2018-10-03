@@ -1,0 +1,13 @@
+version: 2
+plugins:
+    eslint:
+        enabled: true
+        channel: "eslint-4"
+        config:
+            extensions:
+                - .js
+                - .ts
+                - .tsx
+                - .jsx
+exclude_paths:
+    - node_modules/**
